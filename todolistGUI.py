@@ -65,7 +65,7 @@ def seereminder():
         newentry = Tkinter.Entry(newpopup, width = 18)
         newentry.grid(row = 0, column = 1)
         
-        secondlabel = Tkinter.Label(newpopup, text="Input the date and time\n'Note: format => 00-00-0000'", font="Verdana")
+        secondlabel = Tkinter.Label(newpopup, text="Input the date and time\n'Note: format => April 9, 2018'", font="Verdana")
         secondlabel.grid(row =1)
         
         secondentry = Tkinter.Entry(newpopup, width = 18)
